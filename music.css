@@ -1,0 +1,46 @@
+body{
+    background-image: linear-gradient(grey,blue,silver);
+    background-repeat: no-repeat;
+    height: 650px ;
+    overflow: hidden
+}
+.container{
+    margin: auto;
+    width: 300px;
+    height: 500px;
+    margin: auto;
+    border-radius: 10%;
+    padding: 0px 100px;
+    background-color:rgb(135, 16, 127);
+    box-shadow:5px 0px 16px 25px  rgb(135, 16, 127), 0px 10px 16px 25px  white;
+    position: relative;
+    top: -0px;
+
+}
+.container:hover{
+    box-shadow:5px 0px 16px 25px  rgb(213, 210, 213), 0px 5px 16px 5px  white;
+    
+    
+}
+p,h1{
+    text-align: center;
+}
+img{
+    padding-left: -40px;
+}
+.container .logo{
+    width: 150px;
+    border-radius: 50%;
+    margin-left: 70px;
+    border: 8px double whitesmoke;
+    box-shadow: 0px 0px 3px 9px rgb(17, 16, 16);
+}
+.gif{
+    position: relative;
+    left: 100px;
+    width: 50px;
+}
+.gift{
+    position: relative;
+    left: 100px;
+}
